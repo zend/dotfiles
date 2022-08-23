@@ -14,9 +14,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export PATH="$PATH:$HOME/.rvm/bin"
 export BIU_PATH=/Library/ibiu
 export PATH=$PATH:$BIU_PATH
-source .zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source .zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source .zsh/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.dotfiles/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.dotfiles/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
